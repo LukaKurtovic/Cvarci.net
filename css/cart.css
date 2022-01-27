@@ -1,0 +1,96 @@
+.head-position{
+    width: 80%;
+    margin: auto;
+}
+.head-position h1{
+    font-weight: 300;
+    font-size: 40px;
+    color: #3F4255;
+    
+
+}
+.cart-info{
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+.cart-row{
+    display: flex;
+    justify-content: space-between;
+}
+.cart-column{
+    flex-basis: 48%;
+    padding:30px 2px;
+}
+.cart-column h2{
+    font-weight: 700;
+    font-size: 20px;
+    color: #3F4255;
+    margin-bottom: 15px;
+}
+.cart-column input,.cart-column textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    outline: none;
+    border: 1px bolid #ccc;
+    box-sizing: border-box;
+}
+.cart-column label{
+    font-size: 15px;
+    font-weight: 500;
+}
+.cart-column p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.confirm-btn{
+    width: 100%;
+    background-color: #FFE500;
+    padding: 10px 15px;
+    font-size: 15px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    margin-top: 10px;
+    color: #3F4255;
+}
+.confirm-btn:hover{
+    background: #E5E5E5;
+    color: #9093A6;
+    
+}
+
+@media(max-width:700px){
+    
+    .head-position h1{
+        font-size: 20px;
+    }
+    
+    .cart-column h2{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .cart-column input,.cart-column textarea{
+        padding: 5px;
+        margin-bottom: 5px;
+        font-size: 8px;
+    }
+    .cart-column label{
+        font-size: 10px;
+       
+    }
+    .cart-column p{
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    .confirm-btn{
+        padding: 7px 10px;
+        font-size: 10px;
+        margin-top: 5px;
+        color: #3F4255;
+    }
+    
+}
